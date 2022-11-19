@@ -1,5 +1,15 @@
-{
+{  
+  "name": "nextjs-starter",
+  "author": "D. Kortekaas",
+  "description": "A Next.js starter project with Tailwind CSS, Sass, TypeScript, ESLint, Prettier, and Jest.",
+  "version": "0.1.0",
   "private": true,
+  "homepage": "YOUR_GIT_REPO_URL",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
