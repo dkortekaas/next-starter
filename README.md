@@ -1,27 +1,37 @@
-# Next.js + Tailwind CSS Example
+# Next.js Sass Starter
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Use Sass to start your Next.js app with CSS superpowers!
 
-## Deploy your own
+## ⚡️ Quick Start
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/dkortekaas/dkortekaas/nextjs-starter)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 🚀 Getting Started
 
-## How to use
+Run the following command to create a new project with this Starter. Replace My-App with the name of your Project:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
+yarn create next-app my-app -e https://github.com/dkortekaas/nextjs-starter
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
+
+```
+yarn dev
 ```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 🧐 What's inside?
+
+This Starter includes [Sass](https://sass-lang.com/) which is a way to provide superpowers to your CSS.
+
+The rest of the Starter is based off of the Next.js default starter.
+
+## 📚 Learn More About Next.js and Tailwind CSS
+
+To learn more about Next.js or Tailwind CSS, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - get started with Tailwind CSS
