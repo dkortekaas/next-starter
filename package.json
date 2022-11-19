@@ -1,4 +1,4 @@
-{  
+{
   "name": "nextjs-starter",
   "author": "D. Kortekaas",
   "description": "A Next.js starter project with Tailwind CSS, Sass, TypeScript, ESLint, Prettier, and Jest.",
@@ -13,7 +13,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "latest",
@@ -25,6 +26,8 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.12",
+    "eslint": "^8.28.0",
+    "eslint-config-next": "^13.0.4",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1",
     "typescript": "4.8.4"
